@@ -64,3 +64,81 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+* { 
+	display: inline-block;
+	
+}
+footer {
+	text-align: center;
+	margin: 20px;
+}
+
+h1 {
+	margin: 0px 50px 00px 50px;
+	font-size: 60px;
+	text-align: center;
+}
+
+a {	display: inline-block;
+	margin: 10px 20px 30px 10px;
+
+ }
+ .logo {
+	
+	margin: 10px 10px 0px 30px;
+	padding: 20px 0px 0px 0px;
+ }
+ 
+.container {
+	display: inline-block;
+	margin: 10px 40px 10px 500px;
+	width: 1000px;
+	max-height: fit-content; 
+	padding: 10px 10px 10px 10px;
+	
+}
+
+.nav {
+	margin: 0px 0px 0px 0px;
+	width: 900px;
+	max-height: fit-content; 
+	padding: 5px;
+	position: fixed;
+	background-color: lightgrey; 
+}
+
+
+.header {
+	margin: 100px 0px 0px 0px;
+	padding: 5px;
+	width: 800px;
+}
+
+.top-img {
+	margin: 20px 0px 0px 20px;
+	padding: 20px 0px 0px 10px;
+}
+/* here's where I needed to add the class selector in the right part of 
+the  html & didn't. Please try to remember this 
+mistake b/c it cost you a lot of time */
+.topSection {
+	display: inline-block;
+	margin: 10px 10px 10px 10px;
+	width: 440px;
+	
+}
+.middle-img {
+	width: 900px;
+	margin: 10px 10px 10px 10px;
+	box-sizing: border-box;
+}
+.middleSection {
+	display: inline-block;
+	margin: 10px;
+	width: 285px;
+	padding: 10px;
+}
+.contact {
+	text-align: left;
+	margin: 10px;
+}
