@@ -103,10 +103,8 @@ a {	display: inline-block;
 	width: 900px;
 	max-height: fit-content; 
 	padding: 5px;
-	position: aboslute;
-	left: 0px;
-	top: 0px;
-	z-index: -1;
+	/* position: fixed;
+	z-index: -1; */
 	background-color: lightgrey; 
 }
 
